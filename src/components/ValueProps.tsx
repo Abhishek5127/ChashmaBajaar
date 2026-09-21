@@ -27,8 +27,8 @@ export default function ValueProps() {
   ];
 
   return (
-    <section className="py-16 sm:py-24 px-6 sm:px-10 lg:px-14 border-y border-neutral-200 bg-white">
-      <div className="w-full max-w-[1500px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
+    <section className="py-14 sm:py-24 px-4 sm:px-10 lg:px-14 border-y border-neutral-200 bg-white">
+      <div className="w-full max-w-[1500px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10">
         {values.map((v, i) => {
           const Icon = v.icon;
           return (

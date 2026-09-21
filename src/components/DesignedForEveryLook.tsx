@@ -68,15 +68,15 @@ export default function DesignedForEveryLook() {
           </p>
         </div>
 
-        {/* 4 Cards Grid with Generous, Wide Proportions */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 sm:gap-8 lg:gap-9">
+        {/* Mobile Swipeable Carousel & Desktop 4-Card Grid */}
+        <div className="flex sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-7 lg:gap-9 overflow-x-auto sm:overflow-visible snap-x snap-mandatory no-scrollbar pb-3 -mx-4 px-4 sm:mx-0 sm:px-0">
           {categoryItems.map((item) => (
             <a
               key={item.id}
               href={`https://wa.me/917014196382?text=${encodeURIComponent(item.query)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-white rounded-3xl p-6 sm:p-8 lg:p-9 border border-neutral-200/90 hover:border-neutral-400 hover:shadow-card transition-all duration-300 flex flex-col justify-between"
+              className="w-[280px] sm:w-auto shrink-0 snap-start group bg-white rounded-3xl p-6 sm:p-8 lg:p-9 border border-neutral-200/90 hover:border-neutral-400 hover:shadow-card transition-all duration-300 flex flex-col justify-between"
             >
               <div>
                 <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-neutral-100 mb-6 shadow-2xs">

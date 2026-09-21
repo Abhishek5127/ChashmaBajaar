@@ -40,7 +40,7 @@ const channels: ContactChannel[] = [
 
 export default function ContactConcierge() {
   return (
-    <section id="contact" className="py-20 sm:py-28 px-6 sm:px-10 lg:px-14 bg-neutral-50/70 border-t border-neutral-200">
+    <section id="contact" className="py-16 sm:py-28 px-4 sm:px-10 lg:px-14 bg-neutral-50/70 border-t border-neutral-200">
       <div className="w-full max-w-[1500px] mx-auto">
         <div className="text-center max-w-xl mx-auto mb-16">
           <span className="text-xs sm:text-sm font-bold uppercase tracking-[0.25em] text-accent block mb-2">

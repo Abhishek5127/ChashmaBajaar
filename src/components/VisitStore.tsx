@@ -7,7 +7,7 @@ export default function VisitStore() {
     "https://www.google.com/maps/search/?api=1&query=Near+Shanti+Nursing+Home+Opposite+Nagar+Palika+Byavar+Road+Bijaynagar";
 
   return (
-    <section id="boutique" className="py-20 sm:py-28 px-6 sm:px-10 lg:px-14 bg-white border-t border-neutral-200">
+    <section id="boutique" className="py-16 sm:py-28 px-4 sm:px-10 lg:px-14 bg-white border-t border-neutral-200">
       <div className="w-full max-w-[1500px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-stretch">
           {/* Left Column: Clean text address & timings */}
@@ -16,11 +16,11 @@ export default function VisitStore() {
               <span className="text-xs sm:text-sm font-bold uppercase tracking-[0.25em] text-accent block mb-2">
                 Visit Our Retail Store
               </span>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-sans font-extrabold text-neutral-900 tracking-tight mb-6">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-sans font-extrabold text-neutral-900 tracking-tight mb-4 sm:mb-6">
                 ChashmaBajaar
               </h2>
 
-              <p className="text-base sm:text-lg text-neutral-600 font-normal leading-relaxed mb-8">
+              <p className="text-sm sm:text-lg text-neutral-600 font-normal leading-relaxed mb-6 sm:mb-8">
                 Located conveniently on Byavar Road right opposite the Nagar Palika in Bijaynagar.
                 Drop by to try hundreds of frames, test your eyes for free, or collect customized lenses.
               </p>
@@ -115,13 +115,13 @@ export default function VisitStore() {
             </svg>
 
             {/* Street Labels */}
-            <div className="absolute top-[195px] left-10 text-xs font-bold uppercase tracking-widest text-neutral-600 bg-white/95 px-3 py-1 rounded-md shadow-xs border border-neutral-200">
+            <div className="absolute top-[185px] sm:top-[195px] left-4 sm:left-10 text-[10px] sm:text-xs font-bold uppercase tracking-widest text-neutral-600 bg-white/95 px-2.5 sm:px-3 py-1 rounded-md shadow-xs border border-neutral-200">
               Byavar Road
             </div>
-            <div className="absolute top-20 left-[230px] text-[11px] font-bold uppercase tracking-wider text-neutral-700 bg-white/95 px-2.5 py-1 rounded-md shadow-xs border border-neutral-200">
+            <div className="absolute top-4 sm:top-20 left-4 sm:left-[230px] text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-neutral-700 bg-white/95 px-2 sm:px-2.5 py-1 rounded-md shadow-xs border border-neutral-200">
               Opp. Nagar Palika
             </div>
-            <div className="absolute bottom-20 right-[180px] text-[11px] font-bold uppercase tracking-wider text-neutral-700 bg-white/95 px-2.5 py-1 rounded-md shadow-xs border border-neutral-200">
+            <div className="absolute bottom-4 sm:bottom-20 right-4 sm:right-[180px] text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-neutral-700 bg-white/95 px-2 sm:px-2.5 py-1 rounded-md shadow-xs border border-neutral-200">
               Shanti Nursing Home
             </div>
 

@@ -14,7 +14,7 @@ export default function LookbookCommunity() {
   ];
 
   return (
-    <section className="py-16 sm:py-24 px-6 sm:px-10 lg:px-14 bg-white border-t border-neutral-100">
+    <section className="py-14 sm:py-24 px-4 sm:px-10 lg:px-14 bg-white border-t border-neutral-100">
       <div className="w-full max-w-[1500px] mx-auto text-center mb-12">
         <span className="text-xs sm:text-sm font-bold uppercase tracking-[0.25em] text-accent block mb-2">
           Bijaynagar Optical Style

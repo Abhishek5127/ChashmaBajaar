@@ -9,7 +9,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#111113] text-neutral-400 pt-20 pb-12 px-6 sm:px-10 lg:px-14 border-t border-neutral-800">
+    <footer className="bg-[#111113] text-neutral-400 pt-16 sm:pt-20 pb-12 px-4 sm:px-10 lg:px-14 border-t border-neutral-800">
       <div className="w-full max-w-[1500px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-12 pb-16 border-b border-neutral-800 items-start">
           {/* Brand Info with Official Logo */}

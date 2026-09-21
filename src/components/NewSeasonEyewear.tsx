@@ -110,12 +110,12 @@ export default function NewSeasonEyewear() {
             </div>
           </div>
 
-          {/* Right 2x2 Product Grid with Bold, Tactile Cards */}
-          <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-7">
+          {/* Right 2x2 Product Grid (Desktop) & Swipeable Carousel (Mobile) */}
+          <div className="lg:col-span-7 flex sm:grid sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-7 overflow-x-auto sm:overflow-visible snap-x snap-mandatory no-scrollbar pb-3 -mx-4 px-4 sm:mx-0 sm:px-0">
             {seasonProducts.map((prod) => (
               <div
                 key={prod.id}
-                className="group bg-white rounded-3xl p-6 sm:p-7 border border-neutral-200/90 hover:border-neutral-400 hover:shadow-card transition-all duration-300 flex flex-col justify-between"
+                className="w-[270px] sm:w-auto shrink-0 snap-start group bg-white rounded-3xl p-5 sm:p-7 border border-neutral-200/90 hover:border-neutral-400 hover:shadow-card transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
                   <div className="relative w-full h-56 sm:h-64 lg:h-72 rounded-2xl overflow-hidden bg-neutral-50 mb-5 p-3 sm:p-4 flex items-center justify-center border border-neutral-100 shadow-2xs">
